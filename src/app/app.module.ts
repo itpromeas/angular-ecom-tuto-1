@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './_components/home/home.component';
 import { NavbarComponent } from './_components/navbar/navbar.component';
 import { NavContentComponent } from './_components/navbar/nav-content/nav-content.component';
+import { MainCarouselComponent } from './_components/home/main-carousel/main-carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    NavContentComponent
+    NavContentComponent,
+    MainCarouselComponent
   ],
   imports: [
     BrowserModule,
