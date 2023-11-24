@@ -11,6 +11,8 @@ import { HomeComponent } from './_components/home/home.component';
 import { NavbarComponent } from './_components/navbar/navbar.component';
 import { NavContentComponent } from './_components/navbar/nav-content/nav-content.component';
 import { MainCarouselComponent } from './_components/home/main-carousel/main-carousel.component';
+import { ProductSliderComponent } from './_components/home/product-slider/product-slider.component';
+import { HomeProductCardComponent } from './_components/home/home-product-card/home-product-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MainCarouselComponent } from './_components/home/main-carousel/main-car
     HomeComponent,
     NavbarComponent,
     NavContentComponent,
-    MainCarouselComponent
+    MainCarouselComponent,
+    ProductSliderComponent,
+    HomeProductCardComponent
   ],
   imports: [
     BrowserModule,
